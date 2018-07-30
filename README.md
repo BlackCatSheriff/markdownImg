@@ -1,5 +1,5 @@
 # markdownImg
-简易版脚本修改  markdown 本地图片链接 以使用 github 正常显示
+简易版脚本修改  markdown 本地图片链接 以适应 github 正常显示
 
 
 

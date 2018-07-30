@@ -59,8 +59,7 @@ if __name__ =="__main__":
             3. 修改此文件中的配置项，建议在每个项目中建一份这个文件，方便使用
             """)
         else:
-            Replacer(arg).doit()
-            # try:
-            # Replacer(arg).doit()
-            # except:
-            #     print("请输入正确文件路径或 --help ！")
+            try:
+            	Replacer(arg).doit()
+            except:
+        	    print("请输入正确文件路径或 --help ！")
